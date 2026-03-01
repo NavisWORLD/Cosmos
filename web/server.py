@@ -1711,8 +1711,8 @@ class SwarmChatManager:
             import hashlib
             from pathlib import Path
 
-            import tempfile
-            cache_dir = Path(tempfile.gettempdir()) / "cosmos_tts_cache"
+            # Check if already cached
+            cache_dir = Path("/tmp/cosmos_tts_cache")
             cache_dir.mkdir(exist_ok=True)
             cache_path = cache_dir / f"{text_hash}.wav"
 

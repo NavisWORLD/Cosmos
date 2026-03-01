@@ -57,9 +57,6 @@ class QuantumEntanglementBridge:
         """Public method to trigger connection or return status."""
         if self.connected:
             return True
-        if not self.api_token:
-            print("[QUANTUM] Cannot connect explicitly without a token. Staying in simulation mode.")
-            return False
         self._connect()
         return self.connected
 
@@ -85,7 +82,7 @@ class QuantumEntanglementBridge:
         try:
             # 1. Initialize Service
             try:
-                self.service = QiskitRuntimeService(channel="ibm_quantum_platform", token=self.api_token)
+                self.service = QiskitRuntimeService(channel="ibm_quantum", token=self.api_token)
             except Exception as e:
                 # Fallback: Try 'ibm_cloud' channel or just default if token implies it
                 print(f"[QUANTUM] 'ibm_quantum' channel failed ({e}). Trying default...")
