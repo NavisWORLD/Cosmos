@@ -1,22 +1,17 @@
 name: Reconstruct COSMOS source
 
 on:
-  push:
-    branches:
-      - cleanup/professionalize-cosmos-2026
-    paths:
-      - '.github/workflows/reconstruct.yml'
   pull_request:
     branches:
       - main
-    types: [opened, reopened, synchronize]
+    types: [opened, reopened]
 
 permissions:
   contents: write
 
 jobs:
   reconstruct:
-    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository
+    if: github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -42,6 +37,7 @@ jobs:
           rm -f COMPARED.md
           rm -rf .rebuild
           rm -f .github/workflows/reconstruct.yml
+          rm -f .github/workflows/ci.yml
 
       - name: Commit source reconstruction
         shell: bash
