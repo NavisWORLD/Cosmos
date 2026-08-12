@@ -28,7 +28,16 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          cat .rebuild/chunk-* | base64 -d > /tmp/cosmos.tar.gz
+          cat \
+            .rebuild/chunk-00 \
+            .rebuild/chunk-01 \
+            .rebuild/chunk-02a \
+            .rebuild/chunk-02b \
+            .rebuild/chunk-03 \
+            .rebuild/chunk-04 \
+            .rebuild/chunk-05 \
+            | base64 -d > /tmp/cosmos.tar.gz
+          echo "7abfb6955c4c6a343792d02ce01d2e5a7f2ada9cf3cdd91391a593817cb96728  /tmp/cosmos.tar.gz" | sha256sum -c -
           tar -xzf /tmp/cosmos.tar.gz
           rm -f COMPARED.md
           rm -rf .rebuild
