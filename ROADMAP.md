@@ -1,98 +1,56 @@
-# 🚀 Farnsworth Roadmap: The Spatio-Temporal Era
+# COSMOS Roadmap
 
-> "I've invented a machine that makes you read the Roadmap in my voice!" - Professor Farnsworth
+This roadmap is deliberately split into **working core**, **next engineering work**, and **research validation**. Checked items describe the public source-first 3.0 foundation, not every historical local prototype.
 
-This document outlines the evolutionary path of Farnsworth, from a memory-boosted assistant to a decentralized, spatio-temporal cognitive partner.
+## 3.0 — Repository reconstruction and professional core
 
----
+- [x] Remove unrelated Farnsworth package, metadata, build products, node_modules, logs, and private runtime archive from the current tree.
+- [x] Preserve a pre-cleanup Git branch for audit/recovery.
+- [x] Replace compiled-only public COSMOS package with readable Python source.
+- [x] Dependency-free local runtime and CLI.
+- [x] SQLite persistent memory + deterministic retrieval baseline + association store.
+- [x] Dyn12 recurrent state and calibrated Gaussian state-kernel preflight.
+- [x] Hash-chained evidence ledger and forecast snapshot receipts.
+- [x] Labeled quantum provenance primitives.
+- [x] Fail-soft heartbeat, CNS registry, plasticity, organism/evolution aggregates, Nexus event bus.
+- [x] Local Ollama adapter with no cloud fallback.
+- [x] Dependency-free local JSON API.
+- [x] Audio summary and already-acquired PPG signal helper.
+- [x] Tests, smoke test, Dockerfile, CI, security/contribution docs.
 
-## 🛰️ Current Focus: Version 2.0.0 (Spatio-Temporal & Collective Intelligence)
+## 3.1 — Retrieval and service hardening
 
-We have entered the **Vision and Social** era. Farnsworth no longer just thinks; it *sees* action over time and *collaborates* across machines.
+- [ ] Add a purpose-built embedding adapter behind the existing memory interface and benchmark it against the hashing baseline.
+- [ ] Add schema migrations/versioning for persistent stores.
+- [ ] Add authenticated API mode before any non-loopback deployment.
+- [ ] Add structured logging with privacy filters and configurable retention.
+- [ ] Add service ownership/PID tracking for safe local start/stop workflows.
+- [ ] Expand deterministic integration tests for Ollama using a mock HTTP service.
 
-- [x] **Video v2.1: Advanced Flow Analysis** (`farnsworth/integration/video.py`)
-  - [x] Farneback Optical Flow Action Detection
-  - [x] Motion Magnitude Peak Keyframe Extraction
-- [x] **P2P Swarm Fabric v2.5** (`farnsworth/core/swarm/p2p.py`)
-  - [x] Multiplexed TCP Streams (The "Professorial" gossip protocol)
-  - [x] Gossipsub & DHT-Lite for knowledge fragments
-- [x] **Decentralized Knowledge Graph** (`farnsworth/core/swarm/dkg.py`)
-  - [x] Federated edge updates between trust pools
-  - [x] CRDT-based Last-Writer-Wins (LWW) conflict resolution
-- [x] **Planetary Memory** (`farnsworth/core/memory/planetary/akashic.py`)
-  - [x] Global shared vector cache (encrypted & anonymized)
-  - [x] Skill Vector exchange protocol
-- [x] **Quantum-Inspired Search** (`farnsworth/core/quantum/search.py`)
-  - [x] Schrödinger's Query (Superposition-based reasoning path exploration)
-- [x] **3D Scene Reconstruction** (`farnsworth/integration/vision/reconstruction.py`)
-  - [x] Sparse Point Cloud generation via SfM (OpenCV)
-  - [x] Fundamental Matrix & Trifocal Tensor estimation logic
-- [ ] **Emotion-to-Action**: Directly mapping affective states into system priorities
-- [ ] **Biological Interface Support**: Standardized API for neuro-integration
+## 3.2 — Research architecture package
 
+- [ ] Publish the exact PHOS/dyn12 training architecture as an installable optional ML package.
+- [ ] Re-run state ladder on frozen, versioned datasets and publish machine-readable per-seed results.
+- [ ] Keep kernel/Ω/gate/coupling preflight mandatory in benchmark harnesses.
+- [ ] Add scaling harnesses for additional public corpora/models.
 
----
+## 3.3 — Sensory and bio adapters
 
-## ✅ Completed Milestones
+- [ ] Native iOS/Android bridge for permissioned sensor summaries.
+- [ ] HealthKit/Health Connect adapters that expose explicit aggregates only.
+- [ ] Camera/microphone feature adapters with freshness gates and opt-in retention.
+- [ ] Timestamped paired-state research logger with aligned/shuffled/shifted controls.
 
-### Version 2.1.0 - The Skill Swarm 🐝
-- [x] **DeGen Mob Suite**: Sniping, Whale Watching, & Rug Detection
-- [x] **Cognitive Trading Intelligence**: Signal reasoning & result-based learning
-- [x] **Elite Solana Trading**: Jupiter, Meteora LP, & Pump.fun execution
-- [x] **Financial Intelligence**: DexScreener, Polymarket, **Pump.fun**, & **Bags.fm**
-- [x] **Market Sentiment**: Fear & Greed, Global Market Macro
-- [x] **Grok X Search**: Real-time X (Twitter) intelligence
-- [x] **Remotion Video**: Programmatic React-based video rendering
-- [x] **Parallel AI Orchestrator**: Multi-model consensus & reliability
-- [x] **YouTube Intelligence**: Transcription & Semantic Analysis
-- [x] **Sequential Thinking**: Systematic reasoning chains
-- [x] **Discord Bridge**: Full ChatOps connectivity
-- [x] **Mermaid Diagrams**: Native architectural visualization
-- [x] **Agentic OS Bridge**: System diagnostics & process control
-- [x] **Granular Setup Wizard**: Interactive feature configuration
+## 3.4 — Quantum provenance adapters
 
-### Version 2.0.0 - The Spatio-Temporal Era 🌌�
-- [x] **External Framework**: GitHub, Notion, Calendar, Office365, X (Twitter)
-- [x] **Auth Manager**: Secure credential storage via Keyring
-- [x] **Universal AI Gateway**: Hybrid model routing (Grok/Gemini/Ollama)
-- [x] **n8n Bridge**: Workflow-based extensibility
-- [x] **IDE Integrations**: VS Code LSP & Cursor `.cursorrules` generation
+- [ ] IBM/Azure provider adapters behind the provenance interface.
+- [ ] Hardware/simulator labels enforced at ingestion.
+- [ ] Archive manifest verification and shot/accounting tests.
+- [ ] Continue matched classical controls; preserve null results.
 
-### Version 1.8.0 - Personal Assistant 📅
-- [x] **Meeting Assistant**: Context recall, briefing generation, action extraction
-- [x] **Learning Co-Pilot**: Spaced repetition (SM-2) & Skill Trees
+## Creative / simulation projects
 
-### Version 1.4 - 1.7 - Advanced Cognition & Vision 🧠👁️
-- [x] **Theory of Mind (v1.6)**: Predictive Coding simulation of user intent
-- [x] **Visual Intelligence (v1.7)**: Visual Debugger & Diagram Parsing
-- [x] **Continual Learning (v1.5)**: Experience Replay & Elastic Consolidation
-- [x] **Causal Reasoning (v1.5)**: Causal graphs, interventions, and counterfactuals
-- [x] **Neural OS Interface (v1.4)**: Neuromorphic Core & Agentic OS Bridge
-
-### Version 1.3.0 - The Neural Event Bus ⚡
-- [x] **FCP Engine**: Holographic State Projection
-- [x] **The Nexus**: Asynchronous Neural Event Bus
-- [x] **Omni-Channel Bridge**: Discord/Slack architecture
-
-### Version 1.0 - 1.2 - Proactive & Project-Centric �
-- [x] **Project Tracking**: Auto-detection of projects and milestones
-- [x] **Conversation Export**: Multi-format export system
-- [x] **Production Release**: Performance (sub-100ms recall) and scalability
-
----
-
-## 🧪 Future Explorations (2026+)
-
-
-
-
----
-
-## 🤝 How to Contribute
-
-Want to help? We're looking for specialists in:
-1. **P2P Networking** (libp2p or similar)
-2. **Video Feature Extraction** (SOWT/Flow analysis)
-3. **Cybersecurity** (Zero-knowledge proofs for memory sharing)
-
-*"Good news, everyone! The code is open source!"*
+- [ ] Publish canonical Reality Bridge Alien Conductor browser artifact under `examples/`.
+- [ ] Publish canonical Reality Bridge Prediction browser artifact under `examples/`.
+- [ ] Publish Universe Simulation Engine C++/Python package with deterministic seed/export tests.
+- [ ] Keep these projects linked through `PORTFOLIO/` and technical evidence pages.

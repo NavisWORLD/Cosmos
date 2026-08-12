@@ -1,0 +1,14 @@
+# Documentation-only example. Runtime reads environment variables today.
+[runtime]
+data_dir = "var"
+host = "127.0.0.1"
+port = 8081
+backend = "echo"
+memory_limit = 8
+
+[ollama]
+url = "http://127.0.0.1:11434"
+model = "qwen2.5:1.5b"
+
+[evidence]
+labels = ["IMPLEMENTED", "OBSERVED", "MEASURED", "NULL", "HYPOTHESIS", "METAPHOR_MODEL"]
