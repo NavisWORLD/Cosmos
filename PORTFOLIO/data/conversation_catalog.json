@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "updated": "2026-08-12",
+  "policy": "Never invent a ChatGPT share UUID. Replace null only with the exact public share URL.",
+  "conversations": [
+    {"id":1,"title":"COSMOS + Davis Cosmic Synapse Theory","manual":"MANUALS/COSMOS_CST_ARCHITECTURE.md","share_url":null},
+    {"id":2,"title":"COSMOS / PHOS architecture + evidence","manual":"MANUALS/PHOS_AND_TRANSFORMER.md","share_url":null},
+    {"id":3,"title":"COSMOS Beast testing","manual":"MANUALS/COSMOS_BEAST_TESTING.md","share_url":null},
+    {"id":4,"title":"Reality Bridge: Alien Conductor","manual":"MANUALS/MUSIC_AND_ALIEN_CONDUCTOR.md","share_url":null},
+    {"id":5,"title":"AI album / music experiment","manual":"MANUALS/RESEARCH_AND_CREATIVE_LABS.md","share_url":null},
+    {"id":6,"title":"AI creative-industry experiment","manual":"MANUALS/RESEARCH_AND_CREATIVE_LABS.md","share_url":null},
+    {"id":7,"title":"Stand-up comedy experiment","manual":"MANUALS/RESEARCH_AND_CREATIVE_LABS.md","share_url":null},
+    {"id":8,"title":"Human vs. AI photography","manual":"MANUALS/RESEARCH_AND_CREATIVE_LABS.md","share_url":null},
+    {"id":9,"title":"Reality Bridge Prediction Engine","manual":"MANUALS/REALITY_BRIDGE_PREDICTION.md","share_url":null},
+    {"id":10,"title":"Lottery prediction stress test","manual":"MANUALS/REALITY_BRIDGE_PREDICTION.md","share_url":null},
+    {"id":11,"title":"Navier–Stokes research conversation","manual":"MANUALS/RESEARCH_AND_CREATIVE_LABS.md","share_url":null},
+    {"id":12,"title":"Navier–Stokes explained simply","manual":"MANUALS/RESEARCH_AND_CREATIVE_LABS.md","share_url":null},
+    {"id":13,"title":"Origins × COSMOS","manual":"MANUALS/ORIGINS_X_COSMOS.md","share_url":null},
+    {"id":14,"title":"Engineering reconstruction","manual":"MANUALS/ENGINEERING_RECONSTRUCTION.md","share_url":null},
+    {"id":15,"title":"COSMOS CLI / autonomous engineering environment","manual":"MANUALS/AUTONOMOUS_ENGINEERING_CLI.md","share_url":null},
+    {"id":16,"title":"What did Cory actually build?","manual":"../PROJECT_ATLAS.md","share_url":null}
+  ]
+}
