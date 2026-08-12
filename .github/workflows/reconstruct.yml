@@ -6,16 +6,22 @@ on:
       - cleanup/professionalize-cosmos-2026
     paths:
       - '.github/workflows/reconstruct.yml'
+  pull_request:
+    branches:
+      - main
+    types: [opened, reopened, synchronize]
 
 permissions:
   contents: write
 
 jobs:
   reconstruct:
+    if: github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: cleanup/professionalize-cosmos-2026
           fetch-depth: 0
 
       - name: Expand tested source snapshot
