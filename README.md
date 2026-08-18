@@ -19,6 +19,22 @@ The result is not one magic algorithm. It is an **architecture for continuity**:
 
 ---
 
+## Active provenance dispute and evidence preservation
+
+I have an active authorship, provenance, and intellectual-property dispute concerning historical interactions with a former collaborator/third party connected to earlier material surrounding this project.
+
+I allege that original work, concepts, project material, and/or protectable expression belonging to me were used without authorization and that the broader dispute included unwanted real-world conduct and harassment. Those allegations are my position and are not presented here as a court judgment or independently adjudicated legal conclusion.
+
+I have preserved evidence relevant to that dispute and intend to rely on the strongest verifiable chronology available: dated source, repository commits, archived versions, DOI/deposit records, hashes, logs, screenshots, correspondence, platform timestamps, technical comparisons, and other contemporaneous records.
+
+**The 2026 cleanup and separation of discontinued external integration material is not a waiver, release, abandonment, assignment, consent, settlement, forgiveness, or surrender of any claim, evidence, right, or remedy I may possess.**
+
+My position is simple: any dispute about authorship or provenance should be tested against the actual record — **artifact, date, authorship, access/communication, technical comparison, and the right that applies.**
+
+See [`DISPUTED_PROVENANCE_AND_EVIDENCE_NOTICE.md`](DISPUTED_PROVENANCE_AND_EVIDENCE_NOTICE.md) and [`ORIGIN_AND_PROVENANCE.md`](ORIGIN_AND_PROVENANCE.md).
+
+---
+
 ## What COSMOS is
 
 COSMOS is an experimental AI/runtime platform built around several recurring ideas:
@@ -123,6 +139,7 @@ See:
 - [`CORY_DAVIS_IP_AND_ACCESS_NOTICE.md`](CORY_DAVIS_IP_AND_ACCESS_NOTICE.md)
 - [`COMMERCIAL_RIGHTS.md`](COMMERCIAL_RIGHTS.md)
 - [`ORIGIN_AND_PROVENANCE.md`](ORIGIN_AND_PROVENANCE.md)
+- [`DISPUTED_PROVENANCE_AND_EVIDENCE_NOTICE.md`](DISPUTED_PROVENANCE_AND_EVIDENCE_NOTICE.md)
 - [`LICENSE`](LICENSE)
 
 ### Current permission boundary
