@@ -2,6 +2,22 @@
 
 All notable public repository changes are documented here.
 
+## [3.0.1] - 2026-08-18
+
+### Provenance and ownership reset
+- Rewrote the root README around Cory Shane Davis / NavisWORLD, the COSMOS/CST research story, the 2018 → 2024 → 2026 timeline, current engineering scope, evidence discipline, and ownership boundaries.
+- Added `ORIGIN_AND_PROVENANCE.md` to separate personal origin, project chronology, public evidence, implementation, and legal conclusions.
+- Replaced the current repository MIT license with a permission-only/all-rights-reserved copyright notice for Cory-owned Covered Original Material.
+- Updated `CORY_DAVIS_IP_AND_ACCESS_NOTICE.md` and `COMMERCIAL_RIGHTS.md` so they match the current permission boundary while preserving valid earlier license grants for earlier copies/versions.
+- Updated `CONTRIBUTING.md` to require prior approval and clearer contribution/provenance rights.
+- Updated Python package metadata to `3.0.1` and changed the license classifier from MIT to `Other/Proprietary License`.
+- Preserved third-party license boundaries and explicit limits on what copyright can protect.
+- Preserved the scientific claim boundary: implementation, observation, measurement, null, hypothesis, and metaphor remain distinct.
+
+### Repository lineage
+- The canonical repository tree remains the reconstructed COSMOS-only source tree.
+- The canonical branch ancestry was previously rebuilt from a clean root snapshot so discontinued mixed integration ancestry is not part of the supported `main` lineage.
+
 ## [3.0.0] - 2026-08-12
 
 ### Repository reconstruction
