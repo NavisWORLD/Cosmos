@@ -4,8 +4,7 @@ This roadmap is deliberately split into **working core**, **next engineering wor
 
 ## 3.0 — Repository reconstruction and professional core
 
-- [x] Remove unrelated Farnsworth package, metadata, build products, node_modules, logs, and private runtime archive from the current tree.
-- [x] Preserve a pre-cleanup Git branch for audit/recovery.
+- [x] Remove discontinued external integration material, generated build products, `node_modules`, logs, and private runtime archives from the current tree.
 - [x] Replace compiled-only public COSMOS package with readable Python source.
 - [x] Dependency-free local runtime and CLI.
 - [x] SQLite persistent memory + deterministic retrieval baseline + association store.
