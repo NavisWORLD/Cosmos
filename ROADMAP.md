@@ -1,6 +1,6 @@
 # COSMOS Roadmap
 
-This roadmap is deliberately split into **working core**, **next engineering work**, and **research validation**. Checked items describe the public source-first 3.0 foundation, not every historical local prototype.
+This roadmap is split into **working core**, **provenance/rights hardening**, **next engineering work**, and **research validation**. Checked items describe the current supported source-first COSMOS foundation, not every historical prototype.
 
 ## 3.0 — Repository reconstruction and professional core
 
@@ -16,6 +16,20 @@ This roadmap is deliberately split into **working core**, **next engineering wor
 - [x] Dependency-free local JSON API.
 - [x] Audio summary and already-acquired PPG signal helper.
 - [x] Tests, smoke test, Dockerfile, CI, security/contribution docs.
+
+## 3.0.1 — Provenance, ownership, and rights hardening
+
+- [x] Rebuild the canonical supported branch from a clean COSMOS root snapshot.
+- [x] Re-anchor contaminated historical branches away from discontinued integration ancestry while preserving unrelated clean work where possible.
+- [x] Rewrite the README around Cory Shane Davis / NavisWORLD and the 2018 → 2024 → 2026 COSMOS/CST story.
+- [x] Add `ORIGIN_AND_PROVENANCE.md`.
+- [x] Add `DISPUTED_PROVENANCE_AND_EVIDENCE_NOTICE.md`.
+- [x] Replace the current-tree MIT license with a permission-only copyright notice while explicitly preserving valid prior grants for earlier copies/versions.
+- [x] Align commercial-rights, contribution, package metadata, and portfolio language with the current permission boundary.
+- [x] Preserve third-party license boundaries and avoid claiming ownership of generic prior art, public algorithms, or scientific concepts.
+- [x] State that repository cleanup is not a waiver, release, abandonment, assignment, consent, or surrender of preserved evidence or claims.
+- [ ] Obtain qualified IP counsel review of the provenance/evidence package before relying on it in a specific legal dispute.
+- [ ] Maintain an offline, immutable evidence archive containing original files, hashes, exports, correspondence, platform timestamps, DOI records, and chain-of-custody notes.
 
 ## 3.1 — Retrieval and service hardening
 
