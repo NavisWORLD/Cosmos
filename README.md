@@ -4,60 +4,208 @@
 
 **COSMOS is a local-first experimental cognitive runtime and the engineering home of Davis Cosmic Synapse Theory (CST).**
 
-I did not start this as a product or as a wrapper around somebody else’s project. COSMOS grew out of a long-running attempt to answer a different question: **what happens if an AI system is allowed to carry structured internal state, durable memory, associations, sensory context, evidence, and learning signals across time instead of behaving like every interaction starts from zero?**
+It is built around one long-running question:
 
-That question became a research lineage.
+> **What changes when an AI system is allowed to carry structured internal state, durable memory, associations, sensory context, evidence, and learning signals across time instead of behaving as though every interaction starts from zero?**
 
-**2018 → 2024 → 2026** is the timeline I use for that lineage:
+COSMOS is my attempt to turn that question into inspectable software.
 
-- **2018 — origin.** The early phase was conceptual and personal: thinking about memory, state, chaos, information, recurrence, and how a computational system might preserve continuity instead of acting like a stateless tool. This is the origin point of the research story, not a claim that every later mechanism was already implemented then.
-- **2024 — CST becomes a formal research program.** The work was organized around what I call **Davis Cosmic Synapse Theory**, including a 12-dimensional computational/state vocabulary and hypotheses connecting dynamic state, memory, chaos, sensory information, and adaptive computation. The research archive linked by this repository includes the work identified as *The 12-Dimensional Cosmic Synapse Theory* and Zenodo DOI **10.5281/zenodo.17574447**.
-- **2025 — theory turns into systems.** The project moved into persistent memory, learn/save/load restoration, evolving world state, sensory/context bridges, multi-store memory, online learning, bounded association memory, autonomous study loops, and increasingly explicit perception → hypothesis → action → evidence cycles.
-- **2026 — COSMOS becomes the integrated runtime.** The separate experiments were pulled into a local-first engineering environment with dynamic internal state, durable memory, Hebbian-style associations, model orchestration, evidence/provenance tooling, heartbeat/maintenance loops, sensory summaries, simulation and creative systems, quantum-provenance experiments, reproducible tests, and an operator-facing CLI/API.
-
-The result is not one magic algorithm. It is an **architecture for continuity**: a system where memory, state, evidence, tools, and learning can interact through explicit interfaces and be inspected rather than hidden behind a story.
+This repository is also the canonical record of how I describe the origin, ownership boundary, provenance, and present engineering state of the project.
 
 ---
 
-## Active provenance dispute and evidence preservation
+# My story
 
-I have an active authorship, provenance, and intellectual-property dispute concerning historical interactions with a former collaborator/third party connected to earlier material surrounding this project.
+I did not begin COSMOS as a product, a rebrand, or a wrapper around somebody else’s system.
 
-I allege that original work, concepts, project material, and/or protectable expression belonging to me were used without authorization and that the broader dispute included unwanted real-world conduct and harassment. Those allegations are my position and are not presented here as a court judgment or independently adjudicated legal conclusion.
+The work grew out of years of thinking about continuity: memory, recurrence, internal state, chaos, information flow, sensory context, adaptation, and the problem of making a computational system preserve something meaningful from one moment to the next.
 
-I have preserved evidence relevant to that dispute and intend to rely on the strongest verifiable chronology available: dated source, repository commits, archived versions, DOI/deposit records, hashes, logs, screenshots, correspondence, platform timestamps, technical comparisons, and other contemporaneous records.
+The research lineage I use is:
+
+## **2018 → 2024 → 2025 → 2026**
+
+### 2018 — the origin
+
+2018 is the beginning of the research story.
+
+The early work was conceptual and personal: thinking about memory, recurrence, state, chaotic dynamics, information, and whether a machine could preserve continuity instead of functioning as a purely stateless tool.
+
+This date is an origin statement. It is **not** a claim that every mechanism now present in COSMOS already existed as executable software in 2018.
+
+### 2024 — Davis Cosmic Synapse Theory
+
+By 2024 the research direction had become a more formal program that I call **Davis Cosmic Synapse Theory (CST)**.
+
+The 12D framework became a computational/state vocabulary for exploring dynamic state, memory, sensory information, recurrent/chaotic behavior, association learning, and adaptive computation.
+
+A persistent research anchor associated with this lineage is:
+
+**Zenodo DOI: 10.5281/zenodo.17574447**
+
+A DOI is useful evidence of chronology and publication history. It is not, by itself, a patent, an infringement judgment, or proof that another project copied mine.
+
+### 2025 — theory became systems
+
+The next phase increasingly turned the theory into engineering.
+
+Work expanded into:
+
+- persistent and restorable memory;
+- learn/save/load continuity;
+- evolving world or environment state;
+- sensory/context bridges;
+- bounded association memory;
+- online learning and adaptation;
+- multi-store memory and retrieval;
+- autonomous study/research loops;
+- explicit perception → hypothesis → action → evidence cycles.
+
+This was the transition from **“what if continuity matters?”** to **“what exact mechanisms make continuity testable?”**
+
+### 2026 — COSMOS becomes the integrated runtime
+
+In 2026 those separate experiments were consolidated into COSMOS as a local-first runtime/platform.
+
+The current engineering direction combines:
+
+- dynamic internal state;
+- durable memory;
+- Hebbian-style associations;
+- local model orchestration;
+- heartbeat/maintenance loops;
+- sensory summaries;
+- evidence and provenance tooling;
+- simulation and creative systems;
+- Reality Bridge experiments;
+- quantum-provenance interfaces with explicit classical-control boundaries;
+- deterministic tests, local APIs, and operator tooling.
+
+The result is not one magic algorithm.
+
+It is an **architecture for continuity**.
+
+---
+
+# Documented provenance and collaboration boundary
+
+My provenance record is not based on memory alone.
+
+I preserve a chronology across dated source files, repository history, archived versions, publication/DOI records, hashes, logs, screenshots, correspondence, platform timestamps, technical comparisons, and other contemporaneous records.
+
+I also preserve a **private written collaboration record from November 21, 2025**. That record identifies me as the original researcher and states that the foundational “Original IP” underlying the 12-Dimensional Cosmic Synapse Theory project remained my sole and exclusive property, subject to the terms of that agreement. The same record distinguishes jointly created material from independent work and restricts independent work from incorporating or deriving from defined Original IP or Joint IP without consent.
+
+I preserve the agreement, execution trail, and related correspondence as evidence. I do **not** publish another person’s private signature data or personal information in this repository merely to make the point publicly.
+
+That distinction matters:
+
+- **public repository evidence** can show chronology and authorship of particular artifacts;
+- **private evidence** can show communications, acknowledgments, access, agreements, and other facts that do not belong in a public README;
+- neither should be exaggerated beyond what the record actually proves.
+
+See [`ORIGIN_AND_PROVENANCE.md`](ORIGIN_AND_PROVENANCE.md) and [`PROVENANCE_EVIDENCE_INDEX.md`](PROVENANCE_EVIDENCE_INDEX.md).
+
+---
+
+# Active provenance dispute and evidence preservation
+
+I have an active authorship, provenance, contract, and intellectual-property dispute concerning historical interactions with a former collaborator/third party connected to earlier material surrounding this project.
+
+I allege that original work, protectable expression, confidential/project material, and other rights belonging to me were used without authorization, and that the broader dispute also involved unwanted real-world conduct and harassment.
+
+Those allegations are **my position**. They are not presented here as a court judgment, arbitration award, or independently adjudicated legal conclusion.
+
+I have preserved evidence relevant to the dispute.
 
 **The 2026 cleanup and separation of discontinued external integration material is not a waiver, release, abandonment, assignment, consent, settlement, forgiveness, or surrender of any claim, evidence, right, or remedy I may possess.**
 
-My position is simple: any dispute about authorship or provenance should be tested against the actual record — **artifact, date, authorship, access/communication, technical comparison, and the right that applies.**
+My standard for provenance disputes is:
 
-See [`DISPUTED_PROVENANCE_AND_EVIDENCE_NOTICE.md`](DISPUTED_PROVENANCE_AND_EVIDENCE_NOTICE.md) and [`ORIGIN_AND_PROVENANCE.md`](ORIGIN_AND_PROVENANCE.md).
+**artifact → date → authorship → access/communication → technical comparison → applicable right**
 
----
-
-## What COSMOS is
-
-COSMOS is an experimental AI/runtime platform built around several recurring ideas:
-
-- **Dynamic internal state** — compact recurrent state, including Dyn12/CST mechanisms, that can influence computation over time.
-- **Persistent memory** — durable local storage, retrieval, association weights, and restoration across sessions.
-- **Hebbian-style adaptation** — bounded association updates and plasticity-inspired learning mechanisms.
-- **Local model orchestration** — local-first backends such as Ollama, with cloud services treated as explicit optional integrations rather than hidden dependencies.
-- **Evidence and provenance** — hash-chained records, reproducible seeds, explicit claim labels, controls, and receipts.
-- **Heartbeat and maintenance loops** — fail-soft background tasks and recurring system maintenance.
-- **Sensory/context bridges** — compact summaries from audio, motion, camera/PPG-style inputs, or other sensors without requiring raw private streams in the core runtime.
-- **Simulation and creative systems** — Reality Bridge experiments, music systems, world/simulation engines, and controlled predictive baselines.
-- **Quantum provenance research** — labeled use of quantum-derived randomness/provenance where available, without pretending that quantum provenance automatically proves quantum performance advantage.
-
-The current `cosmos/` package is the canonical source-first implementation.
+See [`DISPUTED_PROVENANCE_AND_EVIDENCE_NOTICE.md`](DISPUTED_PROVENANCE_AND_EVIDENCE_NOTICE.md).
 
 ---
 
-## What makes this project different
+# Ownership and current permission boundary
 
-The central design choice is that **state is not treated as disposable metadata**.
+Copyright © 2026 Cory Shane Davis / NavisWORLD.
 
-A normal language-model interaction can be approximated as:
+The current repository revision is **permission-only** for Cory-owned Covered Original Material unless a particular file or component carries a different controlling license.
+
+Unless a specific file states otherwise, no blanket permission is granted to:
+
+- copy or redistribute covered original material;
+- modify or create derivative works;
+- rebrand or white-label it;
+- sell, sublicense, host, or commercialize it;
+- incorporate it into another product or service;
+- use covered original material for commercial AI/ML training, fine-tuning, distillation, synthetic-data generation, embedding generation, retrieval-augmented model development, evaluation corpora, or other model-development activity.
+
+Additional use requires a separate written authorization unless applicable law independently permits the activity.
+
+## Important limits on this notice
+
+This repository does **not** claim ownership over third-party material merely because COSMOS uses or discusses it.
+
+It also does not claim copyright ownership over abstract ideas, scientific principles, algorithms, methods, systems, or discoveries. Copyright protects qualifying original expression, including software and documentation. Patent, trademark, trade-secret, contract, and other law may apply separately where the legal requirements are satisfied.
+
+Earlier copies or versions that were validly distributed under a prior license remain subject to the rights validly granted for those copies or versions. The current permission boundary does not retroactively erase earlier grants.
+
+See:
+
+- [`LICENSE`](LICENSE)
+- [`CORY_DAVIS_IP_AND_ACCESS_NOTICE.md`](CORY_DAVIS_IP_AND_ACCESS_NOTICE.md)
+- [`COMMERCIAL_RIGHTS.md`](COMMERCIAL_RIGHTS.md)
+- [`ORIGIN_AND_PROVENANCE.md`](ORIGIN_AND_PROVENANCE.md)
+- [`DISPUTED_PROVENANCE_AND_EVIDENCE_NOTICE.md`](DISPUTED_PROVENANCE_AND_EVIDENCE_NOTICE.md)
+
+---
+
+# What COSMOS is
+
+COSMOS is an experimental AI/runtime platform built around several recurring mechanisms.
+
+## Dynamic internal state
+
+Compact recurrent state, including Dyn12/CST mechanisms, can influence computation over time rather than existing only as descriptive metadata.
+
+## Persistent memory
+
+Local durable storage, deterministic retrieval baselines, bounded association weights, and restoration across sessions allow state and memory to survive beyond a single prompt.
+
+## Hebbian-style adaptation
+
+Association updates and plasticity-inspired mechanisms allow concepts and experiences to change their relative influence over time.
+
+## Local model orchestration
+
+Local-first backends such as Ollama can be used directly. Cloud services are explicit optional integrations rather than hidden requirements.
+
+## Evidence and provenance
+
+COSMOS includes hash-chained records, reproducible seeds, explicit claim labels, controls, and receipts so the project can separate mechanism from story.
+
+## Heartbeat and maintenance loops
+
+Fail-soft recurring tasks can perform maintenance, state updates, checks, and other background work without treating every interaction as isolated.
+
+## Sensory/context bridges
+
+Compact summaries from audio, motion, camera/PPG-style inputs, or other sensors can influence runtime state without requiring the core to store raw private streams by default.
+
+## Simulation and creative systems
+
+Reality Bridge experiments, music systems, world/simulation engines, and controlled predictive baselines test the broader CST design language in different domains.
+
+## Quantum provenance research
+
+Quantum-derived randomness/provenance can be labeled and recorded where available. Quantum provenance is not treated as automatic proof of quantum-computing advantage.
+
+---
+
+# Architecture for continuity
+
+A conventional language-model interaction can be simplified as:
 
 ```text
 prompt → model → response
@@ -77,11 +225,13 @@ response + updated state + durable memory + receipt
 next interaction
 ```
 
-The research question is not “can I make a chatbot sound alive?” It is whether persistent computational state, memory, plasticity, evidence, and controlled feedback can produce useful measurable behavior that survives sessions, restarts, model changes, and different runtime environments.
+The research question is not “can I make a chatbot sound alive?”
+
+The research question is whether persistent computational state, memory, plasticity, evidence, and controlled feedback can produce useful measurable behavior that survives sessions, restarts, model changes, and different runtime environments.
 
 ---
 
-## The current working core
+# Current working core
 
 The dependency-light Python core includes:
 
@@ -90,7 +240,7 @@ The dependency-light Python core includes:
 - **COSMOS Runtime** — closes the loop across memory, state, optional sensory summary, response backend, persistence, and evidence.
 - **Local Ollama adapter** — opt-in localhost inference with no required cloud fallback.
 - **Evidence ledger** — append-only JSONL with SHA-256 hash chaining and explicit evidence statuses.
-- **Reality Bridge baselines** — deterministic forecast receipts and baseline comparison utilities.
+- **Reality Bridge baselines** — deterministic forecast receipts and baseline-comparison utilities.
 - **Quantum provenance primitives** — labeled record validation and deterministic seed derivation.
 - **Heartbeat** — fail-soft scheduled maintenance jobs.
 - **Local JSON API** — `/health`, `/state`, `/chat`, and `/sensory`.
@@ -98,9 +248,9 @@ The dependency-light Python core includes:
 
 ---
 
-## Evidence before mythology
+# Evidence before mythology
 
-COSMOS has accumulated ambitious language over its history, so this repository uses explicit evidence labels:
+COSMOS uses explicit claim labels:
 
 - `IMPLEMENTED` — inspectable mechanism exists in source.
 - `OBSERVED` — captured runtime evidence shows the mechanism executed.
@@ -109,7 +259,7 @@ COSMOS has accumulated ambitious language over its history, so this repository u
 - `HYPOTHESIS` — a falsifiable interpretation awaiting stronger evidence.
 - `METAPHOR_MODEL` — conceptual language, not a literal scientific claim.
 
-That means this repository does **not** claim that:
+This repository therefore does **not** claim that:
 
 - COSMOS is proven conscious or sentient;
 - CST dimensions are established literal physical dimensions;
@@ -117,44 +267,11 @@ That means this repository does **not** claim that:
 - persistence or autonomy alone proves intelligence;
 - a prediction interface can guarantee future random events.
 
-I would rather preserve a null result than erase it to make the story sound better. The point of the project is to build mechanisms that can survive inspection.
+I would rather preserve a null result than erase it to make the story sound better.
 
 ---
 
-## Ownership, provenance, and the clean COSMOS lineage
-
-The current repository was rebuilt into a COSMOS-only source tree and separated from discontinued external integration material. The canonical `main` history was also rebuilt from a clean root so the supported project lineage now begins from the current COSMOS source snapshot.
-
-This repository distinguishes:
-
-1. **Cory Shane Davis / NavisWORLD original material** — original source, documentation, architecture, experiments, diagrams, datasets/records, and other copyrightable expression created and owned by Cory Shane Davis / NavisWORLD.
-2. **Third-party components** — libraries, models, APIs, datasets, standards, or other material that remain governed by their own licenses and terms.
-3. **Prior distributions** — copies or versions previously released under a different valid license remain subject to whatever rights were validly granted for those copies. A new notice cannot retroactively revoke an earlier grant.
-4. **Ideas and methods** — copyright protects original expression, including software and documentation, but does not by itself give ownership over abstract ideas, systems, algorithms, methods, or discoveries. Patent, trademark, trade-secret, contract, and other law may apply separately where available.
-
-Public chronology, repository timestamps, and DOI records can document **when this work existed**. They should not be misrepresented as automatic proof that another person copied it.
-
-See:
-
-- [`CORY_DAVIS_IP_AND_ACCESS_NOTICE.md`](CORY_DAVIS_IP_AND_ACCESS_NOTICE.md)
-- [`COMMERCIAL_RIGHTS.md`](COMMERCIAL_RIGHTS.md)
-- [`ORIGIN_AND_PROVENANCE.md`](ORIGIN_AND_PROVENANCE.md)
-- [`DISPUTED_PROVENANCE_AND_EVIDENCE_NOTICE.md`](DISPUTED_PROVENANCE_AND_EVIDENCE_NOTICE.md)
-- [`LICENSE`](LICENSE)
-
-### Current permission boundary
-
-**The current repository revision is not offered under MIT or another open-source license.**
-
-Unless a specific file says otherwise, Cory Shane Davis / NavisWORLD reserves all copyright rights in covered original material. No permission is granted to copy, modify, redistribute, sublicense, sell, commercialize, host as a service, incorporate covered material into another product, create derivative works, or use covered original material for commercial AI/ML training, fine-tuning, distillation, synthetic-data generation, embedding, or model development except through a separate written authorization or where applicable law independently permits the activity.
-
-Inspection, citation, security review, and evaluation remain subject to applicable law, GitHub terms, and any explicit written permission attached to a particular file or release.
-
-**Commercial or additional use requires a separate written agreement with Cory Shane Davis / NavisWORLD.**
-
----
-
-## Quick start
+# Quick start
 
 ```bash
 git clone https://github.com/NavisWORLD/Cosmos.git
@@ -182,7 +299,7 @@ pytest
 python -m cosmos demo
 ```
 
-### Use a local model
+## Use a local model
 
 COSMOS defaults to a dependency-free `echo` backend so installation and tests never require a model server.
 
@@ -202,7 +319,7 @@ python -m cosmos doctor
 python -m cosmos chat
 ```
 
-### Local API
+## Local API
 
 ```bash
 python -m cosmos web --host 127.0.0.1 --port 8081
@@ -228,7 +345,7 @@ The core does **not** store raw camera/audio by default.
 
 ---
 
-## Repository layout
+# Repository layout
 
 ```text
 cosmos/
@@ -252,7 +369,7 @@ tests/                       deterministic core test suite
 
 ---
 
-## Research anchors
+# Research anchors
 
 - Portfolio: [`PORTFOLIO.md`](PORTFOLIO.md)
 - Zenodo research record: **10.5281/zenodo.17574447**
@@ -261,7 +378,7 @@ tests/                       deterministic core test suite
 
 ---
 
-## Status
+# Status
 
 **Core library:** source-complete and covered by deterministic tests in the reconstructed runtime.  
 **Ollama:** optional local integration; requires a running local Ollama service/model.  
@@ -269,11 +386,15 @@ tests/                       deterministic core test suite
 
 ---
 
-## A note from Cory
+# A note from Cory
 
 I built this in public because I wanted the work to be inspectable.
 
-That means the repository contains corrections, experiments that failed, ideas that changed shape, and mechanisms that had to be rebuilt when the evidence was not good enough. I do not want that history replaced with a cleaner legend. **The work matters more if somebody else can inspect what was actually built, what was measured, what failed, and what survived.**
+That choice has consequences. It means the record contains experiments that failed, ideas that changed, code that had to be rebuilt, disputes about provenance, and mechanisms that only became meaningful once they survived testing.
+
+I do not want that history replaced with a cleaner legend.
+
+I want the work judged by the artifacts: what existed, when it existed, what it did, what failed, what survived, and what the evidence actually supports.
 
 COSMOS is the result of continuing to build that question into software.
 
