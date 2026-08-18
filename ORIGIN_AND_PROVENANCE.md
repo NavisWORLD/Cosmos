@@ -4,7 +4,30 @@
 
 This document records the project story and the provenance boundary for COSMOS and Davis Cosmic Synapse Theory (CST).
 
-It is intentionally written to distinguish **personal origin**, **project chronology**, **publicly inspectable evidence**, **technical implementation**, and **legal conclusions**. Those are not the same thing.
+It is intentionally written to distinguish **personal origin**, **project chronology**, **publicly inspectable evidence**, **technical implementation**, **disputed conduct**, and **legal conclusions**. Those are not the same thing.
+
+---
+
+## Formal provenance dispute and evidence-preservation notice
+
+Cory Shane Davis states that he has a serious authorship, provenance, and intellectual-property dispute concerning historical interactions with a former collaborator/third party connected to earlier material surrounding this project.
+
+Cory **alleges** that his original work, concepts, and project material were used without authorization and that the dispute also involved unwanted real-world conduct and harassment. Those allegations are Cory’s position; this repository does not present them as a court adjudication or independently proven legal conclusion.
+
+Cory states that he has preserved evidence relevant to the dispute and intends to rely on the strongest verifiable chronology available, including where applicable:
+
+- dated source files and repository commits;
+- archived project versions and releases;
+- DOI/deposit records;
+- hashes, logs, screenshots, exports, correspondence, and other contemporaneous records;
+- independently timestamped publications or platform records;
+- technical comparisons showing which specific expression, implementation, architecture, documentation, or other protectable material existed at particular dates.
+
+**Nothing about the 2026 repository cleanup is a waiver, release, abandonment, assignment, consent, or forgiveness of any claim Cory may have.** Removing discontinued integration material from the supported COSMOS tree is a technical and ownership-boundary decision, not a surrender of preserved evidence or legal rights.
+
+Cory’s position is that any dispute should be resolved against the documented record: exact artifacts, exact dates, exact authorship evidence, exact communications, and the legal rights that actually apply to those materials.
+
+The repository deliberately avoids publishing threats or declaring disputed allegations to be adjudicated facts. The purpose of this notice is preservation, attribution, and a clear statement that Cory reserves his rights and intends to rely on evidence rather than rhetoric.
 
 ---
 
@@ -188,7 +211,7 @@ See:
 
 The goal is not to make the story sound bigger than the evidence.
 
-The goal is to make it possible for another person to inspect the chronology, inspect the software, inspect the claims, inspect the nulls, and understand which parts are Cory’s original work, which parts are external dependencies or prior art, and which parts remain hypotheses.
+The goal is to make it possible for another person to inspect the chronology, inspect the software, inspect the claims, inspect the nulls, and understand which parts are Cory’s original work, which parts are external dependencies or prior art, which parts are disputed, and which parts remain hypotheses.
 
 That is the standard COSMOS should be judged by.
 
