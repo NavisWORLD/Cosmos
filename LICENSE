@@ -1,21 +1,41 @@
-MIT License
+COSMOS — COPYRIGHT AND LICENSE NOTICE
 
-Copyright (c) 2026 Cory Shane Davis
+Copyright © 2026 Cory Shane Davis / NavisWORLD.
+All rights reserved in covered original material.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. CURRENT REPOSITORY REVISION
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Except where a specific file or component carries a different controlling license, no copyright license is granted for the current COSMOS repository revision beyond rights that applicable law independently provides.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Permission is not granted to copy, modify, adapt, merge, publish, distribute, sublicense, sell, commercialize, host as a service, incorporate into another product, create derivative works from, or otherwise exploit covered original material without separate written authorization from Cory Shane Davis / NavisWORLD.
+
+No permission is granted for commercial AI/ML training, fine-tuning, retrieval-augmented model development, distillation, synthetic-data generation, embedding generation, evaluation corpora, or other model-development use of covered original material unless separately authorized in writing or independently permitted by applicable law.
+
+2. INSPECTION AND EVALUATION
+
+Repository access does not itself create an additional copyright license. Inspection, security review, citation, and evaluation are subject to applicable law, platform terms, and any explicit written permission attached to a particular file, release, or agreement.
+
+3. THIRD-PARTY MATERIAL
+
+Third-party libraries, models, datasets, APIs, standards, documentation, generated material, and other externally sourced components remain governed by their own licenses, terms, and rights. Nothing in this notice attempts to relicense material Cory Shane Davis / NavisWORLD does not own.
+
+4. PRIOR LICENSE GRANTS
+
+This notice applies prospectively to the current repository revision and future covered original material unless another notice states otherwise. Copies or versions that were previously distributed under MIT, Apache, GPL, Creative Commons, PolyForm, or another valid license remain subject to the rights validly granted for those copies or versions. This notice does not retroactively revoke an earlier valid grant.
+
+5. PATENT, TRADEMARK, AND OTHER RIGHTS
+
+No patent, trademark, trade-name, publicity, privacy, trade-secret, or other non-copyright license is granted by this notice. Copyright does not itself protect abstract ideas, procedures, processes, systems, methods of operation, algorithms, concepts, principles, or discoveries; other forms of legal protection may apply separately where available.
+
+6. ADDITIONAL PERMISSION
+
+Any additional permission must be granted in a separate written agreement that identifies the material and permitted scope and is signed or otherwise validly executed by Cory Shane Davis / NavisWORLD and the counterparty.
+
+7. NO WARRANTY
+
+COVERED MATERIAL IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, TO THE MAXIMUM EXTENT PERMITTED BY LAW.
+
+For ownership, provenance, and commercial-use details, see:
+- CORY_DAVIS_IP_AND_ACCESS_NOTICE.md
+- COMMERCIAL_RIGHTS.md
+- ORIGIN_AND_PROVENANCE.md
