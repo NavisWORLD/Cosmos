@@ -1,0 +1,1 @@
+Trigger one-shot stale cleanup ref removal.
