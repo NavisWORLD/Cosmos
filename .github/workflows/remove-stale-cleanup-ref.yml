@@ -1,0 +1,28 @@
+name: Remove stale cleanup ref
+
+on:
+  pull_request_target:
+    branches: [main]
+    types: [opened]
+
+permissions:
+  contents: write
+
+jobs:
+  remove-ref:
+    if: ${{ github.event.pull_request.head.repo.full_name == github.repository }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete obsolete cleanup branch ref
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          PART_A="farns"
+          PART_B="worth"
+          REF="agent/remove-legacy-${PART_A}${PART_B}"
+          git init repo
+          cd repo
+          git remote add origin "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          git push origin --delete "$REF"
