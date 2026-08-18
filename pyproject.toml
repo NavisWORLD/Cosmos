@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "cosmos-cst"
-version = "3.0.0"
+version = "3.0.1"
 description = "COSMOS: local-first experimental cognitive runtime and Davis CST engineering toolkit"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -13,7 +13,7 @@ authors = [{name = "Cory Shane Davis"}]
 keywords = ["cosmos", "cst", "local-ai", "memory", "dynamic-state", "hebbian", "evidence"]
 classifiers = [
   "Development Status :: 4 - Beta",
-  "License :: OSI Approved :: MIT License",
+  "License :: Other/Proprietary License",
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3.10",
   "Programming Language :: Python :: 3.11",
