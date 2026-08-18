@@ -27,8 +27,11 @@ scanner_*.txt
 !.env.example
 *.pem
 *.key
+*.p12
+*.pfx
 credentials*.json
-secrets*.json
+service-account*.json
+secrets.*
 
 # JS / tooling
 node_modules/
