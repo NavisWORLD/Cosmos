@@ -5,9 +5,8 @@ All notable public repository changes are documented here.
 ## [3.0.0] - 2026-08-12
 
 ### Repository reconstruction
-- Removed the unrelated Farnsworth Python package, Farnsworth package metadata, Farnsworth Node/MCP bridge, Farnsworth build artifacts, foreign Farnsworth license, and Farnsworth documentation from the current COSMOS tree.
+- Removed discontinued external integration packages, metadata, bridges, build artifacts, foreign package/license material, and related documentation from the current COSMOS tree.
 - Removed tracked `node_modules`, Python bytecode/cache directories, generated scanner/test output, runtime logs, and local/private archival state.
-- Preserved the pre-cleanup repository at branch `backup/pre-cosmos-cleanup-2026-08-12` and in Git history.
 - Replaced the compiled-bytecode-only public `cosmos/` tree with readable, testable source.
 
 ### Added
