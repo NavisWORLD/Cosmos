@@ -1,45 +1,15 @@
-# COSMOS Commercial Rights & Permission Notice
+# COSMOS Commercial Rights — Open-Source Generation
 
 Copyright © 2026 Cory Shane Davis / NavisWORLD.
 
-## Current repository revision
+## Current generation (2026-09-26 onward)
 
-The current COSMOS repository revision is **not offered for commercial reuse under MIT, PolyForm Noncommercial, or another blanket open-source license** unless a particular file expressly states otherwise.
+Original copyrightable COSMOS material owned or controlled by Cory Shane Davis / NavisWORLD and distributed under the root Apache License 2.0 may be used, modified, redistributed, and used commercially, including paid deployments and hosted services, in accordance with Apache-2.0. No additional permission or royalty is required for activities permitted by that license. Other people receive those same permissions, including commercial permissions.
 
-Commercial use of Covered Original Material owned by Cory Shane Davis / NavisWORLD requires a separate written agreement unless applicable law independently permits the activity.
+Cory Shane Davis retains copyright in his original contributions and may separately sell services, support, distributions, or independently licensed material. The Apache-2.0 grant to released versions is not revoked by later releases or a later licensing strategy. Ownership, trademarks, patents beyond the license's express grant, third-party components, privacy-sensitive data, and non-public materials retain their own applicable boundaries.
 
-Commercial use includes, without limitation:
+## Earlier versions and separate materials
 
-- resale, relicensing, or paid redistribution;
-- incorporation into a commercial product, hosted service, platform, appliance, or subscription;
-- paid consulting or implementation where Covered Original Material is copied, modified, distributed, or deployed beyond what a separate agreement permits;
-- commercial AI/ML training, fine-tuning, distillation, synthetic-data generation, embedding generation, evaluation-corpus creation, retrieval-augmented model development, or model-development pipelines using Covered Original Material;
-- white-labeling, rebranding, or offering Covered Original Material as part of another commercial system.
+Revisions from the prior rights-reserved period were subject to the terms then applicable. Earlier versions validly issued under MIT, Apache, GPL, Creative Commons, or other licenses retain their existing grants. This document does not relicense third-party code, models, scientific articles, datasets, media, credentials, or archives separately governed by other terms.
 
-## Noncommercial use
-
-No blanket noncommercial reuse license is granted by this file either. Inspection, citation, evaluation, and other activity remain subject to applicable law, platform terms, and any explicit written authorization applicable to the material.
-
-## Ownership does not transfer by hiring or collaboration
-
-Hiring, contracting, collaboration, repository access, issue participation, pull requests, or technical assistance do not by themselves transfer ownership of COSMOS/CST material or create a commercial license.
-
-Any assignment, exclusive license, commercial license, or other transfer must be contained in a separate written agreement identifying the rights and material involved.
-
-## Prior grants remain prior grants
-
-Earlier copies or versions that were validly distributed under MIT, Apache, GPL, Creative Commons, PolyForm, or another license remain subject to whatever rights were validly granted for those copies or versions. This notice applies prospectively and does not retroactively revoke an earlier valid license.
-
-## Third-party material
-
-Third-party code, libraries, models, datasets, APIs, standards, and documentation remain governed by their own licenses and terms.
-
-## Research/provenance anchor
-
-Related COSMOS/CST research archive: **Zenodo DOI 10.5281/zenodo.17574447**.
-
-## Requesting permission
-
-Commercial or additional permission must be granted through a separate written agreement with **Cory Shane Davis / NavisWORLD** identifying the material and permitted scope.
-
-See also `LICENSE`, `CORY_DAVIS_IP_AND_ACCESS_NOTICE.md`, and `ORIGIN_AND_PROVENANCE.md`.
+See [LICENSE](LICENSE), [LICENSE_HISTORY.md](LICENSE_HISTORY.md), [NOTICE](NOTICE), and [ORIGIN_AND_PROVENANCE.md](ORIGIN_AND_PROVENANCE.md).

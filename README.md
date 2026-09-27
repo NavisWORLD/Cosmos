@@ -126,22 +126,13 @@ See [`DISPUTED_PROVENANCE_AND_EVIDENCE_NOTICE.md`](DISPUTED_PROVENANCE_AND_EVIDE
 
 ---
 
-# Ownership and current permission boundary
+# Open-source license and ownership
 
 Copyright © 2026 Cory Shane Davis / NavisWORLD.
 
-The current repository revision is **permission-only** for Cory-owned Covered Original Material unless a particular file or component carries a different controlling license.
+Original COSMOS software and documentation owned or controlled by Cory Shane Davis / NavisWORLD are offered under **Apache License 2.0** in the repository root [LICENSE](LICENSE), except where individual files or components identify different controlling terms. Apache-2.0 allows use, modification, redistribution, and commercial use subject to its terms. Copyright ownership is retained by the relevant authors; licensed reuse does not transfer ownership or grant trademarks.
 
-Unless a specific file states otherwise, no blanket permission is granted to:
-
-- copy or redistribute covered original material;
-- modify or create derivative works;
-- rebrand or white-label it;
-- sell, sublicense, host, or commercialize it;
-- incorporate it into another product or service;
-- use covered original material for commercial AI/ML training, fine-tuning, distillation, synthetic-data generation, embedding generation, retrieval-augmented model development, evaluation corpora, or other model-development activity.
-
-Additional use requires a separate written authorization unless applicable law independently permits the activity.
+Third-party libraries, models, datasets, media, and scientific publications remain subject to their separate licenses and rights. Earlier valid license grants remain effective for historical copies. See [LICENSE_HISTORY.md](LICENSE_HISTORY.md), [NOTICE](NOTICE), and the current scope statement in [CORY_DAVIS_IP_AND_ACCESS_NOTICE.md](CORY_DAVIS_IP_AND_ACCESS_NOTICE.md).
 
 ## Important limits on this notice
 
@@ -149,7 +140,7 @@ This repository does **not** claim ownership over third-party material merely be
 
 It also does not claim copyright ownership over abstract ideas, scientific principles, algorithms, methods, systems, or discoveries. Copyright protects qualifying original expression, including software and documentation. Patent, trademark, trade-secret, contract, and other law may apply separately where the legal requirements are satisfied.
 
-Earlier copies or versions that were validly distributed under a prior license remain subject to the rights validly granted for those copies or versions. The current permission boundary does not retroactively erase earlier grants.
+Earlier copies or versions that were validly distributed under a prior license remain subject to the rights validly granted for those copies or versions. The present open-source licensing does not retroactively erase or narrow earlier valid grants.
 
 See:
 
