@@ -1,3 +1,5 @@
+> **CURRENT LICENSING UPDATE (2026-09-26):** Apache-2.0 applies prospectively to Cory-owned original material in revisions carrying the new root `LICENSE`, subject to component-level exceptions. Superseded permission-only statements below were written for the earlier source-available period and cannot narrow the new Apache-2.0 grant. See `LICENSE_HISTORY.md`.
+
 # Cory Shane Davis / NavisWORLD — Intellectual Property and Access Notice
 
 **Effective date:** 2026-08-18
@@ -16,11 +18,7 @@ This notice does not claim ownership of third-party libraries, models, datasets,
 
 ## 2. Current Permission Boundary
 
-Except where a particular file expressly states otherwise, the current repository revision is permission-only and all copyright rights in Covered Original Material are reserved.
-
-Repository access does not by itself grant permission to copy, modify, publish, redistribute, sublicense, sell, commercialize, host as a service, incorporate Covered Original Material into another product, create derivative works, or otherwise exploit it beyond rights independently provided by applicable law.
-
-No permission is granted for commercial AI/ML training, fine-tuning, retrieval-augmented model development, distillation, synthetic-data generation, embedding generation, benchmark/evaluation-corpus creation, or other model-development use of Covered Original Material unless separately authorized in writing or independently permitted by applicable law.
+For revisions distributed with the Apache-2.0 root `LICENSE` from the open-source transition of 2026-09-26, copyrightable original material owned or controlled by Cory Shane Davis / NavisWORLD is granted under Apache-2.0 except where a file or component states different terms. Reuse, modification, redistribution, and commercial exploitation are permitted to the extent the applicable open-source license grants them. No extra written permission is required for uses covered by that license. Separate copyright, third-party, patent, trademark, privacy, confidentiality, and contractual rights, where applicable, remain governed by their respective terms; this notice does not restrict the Apache-2.0 rights granted for covered material.
 
 ---
 
